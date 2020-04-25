@@ -9,7 +9,7 @@ export default class CreateTransactionTable1587315807147
         columns: [
           {
             name: 'id',
-            type: 'uuid',
+            type: 'varchar',
             isPrimary: true,
             generationStrategy: 'uuid',
             default: 'uuid_generate_v4()',
